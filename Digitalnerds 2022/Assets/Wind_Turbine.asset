@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ae60d0b28010f408c498e6f4b92f3e, type: 3}
+  m_Name: Wind_Turbine
+  m_EditorClassIdentifier: 
+  name: Wind Turbine Array
+  id: 1
+  production_power: 20000
+  emmits: 0
+  emmisions: 0
+  Model_Prefab: {fileID: 2145381281692368366, guid: f9c2ba6e23171e64a83d4692606ab549, type: 3}
+  spawn_points:
+  - {x: 180, y: 0, z: 130}
+  - {x: 150, y: 0, z: -230}
+  - {x: -140, y: 0, z: -190}
+  - {x: 170, y: 0, z: 140}
+  pros:
+  - No emissions
+  - Almost no need for maintenance
+  - Unlike the solar array and the Hidropower plant, the wind turbines can be placed
+    almost anywhere and such occupy less space
+  cons:
+  - Weather dependent
+  - High number of wind turbines needed for same energy production level as a power
+    plant

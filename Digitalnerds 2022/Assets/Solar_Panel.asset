@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ae60d0b28010f408c498e6f4b92f3e, type: 3}
+  m_Name: Solar_Panel
+  m_EditorClassIdentifier: 
+  name: Solar Panel Array
+  id: 2
+  production_power: 20000
+  emmits: 0
+  emmisions: 0
+  Model_Prefab: {fileID: 8829514270680783888, guid: 82080ae369df13040b982114fbf48d27, type: 3}
+  spawn_points:
+  - {x: 180, y: 0, z: 130}
+  - {x: 150, y: 0, z: -230}
+  - {x: -140, y: 0, z: -190}
+  - {x: 170, y: 0, z: 140}
+  pros:
+  - No pm 2.5 emissions
+  - Cheap to make and no need to operate
+  cons:
+  - Needs cleaning
+  - Relies on the weather
+  - Relies on the time of day
+  - Ocupies a lot of surface area to produce as much electricity as a power plant
+  - Cannot be placed anywhere
